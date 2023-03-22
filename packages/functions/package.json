@@ -1,0 +1,17 @@
+{
+  "name": "@gpt-bot/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@types/aws-lambda": "^8.10.113",
+    "sst": "^2.1.35"
+  },
+  "dependencies": {
+    "sst": "^2.1.35"
+  }
+}
